@@ -28,12 +28,13 @@ Security is addressed through the principle of least privilege with AWS IAM, sec
             - main.tf
             - variables.tf
             - outputs.tf
-        /prod
-            - main.tf
-            - variables.tf
-            - backend.tf
-            - provider.tf
-            - terraform.tfvars
+    /prod
+    - main.tf
+    - variables.tf
+    - backend.tf
+    - provider.tf
+    - terraform.tfvars
+
 /kubernetes-configs
     - deployment.yaml
     - service.yaml
