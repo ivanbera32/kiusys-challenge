@@ -13,7 +13,8 @@ Security is addressed through the principle of least privilege with AWS IAM, sec
 
 ## Directory structure
 
-```/terraform
+```
+/terraform
     /modules
         /vpc
             - main.tf
